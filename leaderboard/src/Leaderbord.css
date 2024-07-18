@@ -1,0 +1,55 @@
+/* src/components/Leaderboard.css */
+.leaderboard {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  
+  padding-top: 0px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  background-color: aqua; /* Update this to your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh; /* Ensure it takes full viewport height */
+}
+.nav{
+  background-color: #222;
+  height: 5vh;
+}
+
+.player-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between each player element */
+  flex: 1; /* Take available space */
+  overflow-y: auto; /* Scroll if content exceeds */
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 5px;
+}
+
+.player .position,
+.player .name,
+.player .prize,
+.player .time {
+  flex: 1;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+}
