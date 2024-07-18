@@ -8,14 +8,18 @@
   text-align: center;
   background-color: #333;
   color: #fff;
-  border-radius: 10px;
-  background-color: aqua; /* Update this to your image path */
+  /* border-radius: 10px; */
+  background-color: #333; /* Update this to your image path */
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 100vh; /* Ensure it takes full viewport height */
+}
+.head{
+  background-color: #333;
+  padding: 0px;
 }
 .nav{
   background-color: #222;
@@ -23,6 +27,7 @@
 }
 .pop{
   height: 30vh;
+  background-image: url('./img/imgfooter.png');
   /* background-color: #bf2222; */
 }
 
@@ -30,6 +35,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  background-image: url('img/imgmain.png');
   gap: 20px; /* Space between each player element */
   flex: 1; /* Take available space */
   overflow-y: auto; /* Scroll if content exceeds */

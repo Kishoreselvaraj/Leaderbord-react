@@ -39,8 +39,13 @@ const Leaderboard: React.FC = () => {
       <div className="nav">
 
       </div>
-      <h1>Fastest of Today</h1>
+      <h4 className='head'>Fastest of Today</h4>
       <div className="player-container">
+      <div className="player header">
+          <span className="position">S.no</span>
+          <span className="name">Name</span>
+          <span className="time">Time</span>
+        </div>
         {players.map((player, index) => (
           <div className="player" key={index}>
             <span className="position">{index + 1}</span>
