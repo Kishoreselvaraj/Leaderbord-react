@@ -9,7 +9,7 @@
   background-color: #333;
   color: #fff;
   /* border-radius: 10px; */
-  background-color: #333; /* Update this to your image path */
+
   background-size: cover;
   background-position: center;
   display: flex;
@@ -17,9 +17,11 @@
   /* justify-content: space-between; */
   height: 100vh; /* Ensure it takes full viewport height */
 }
-.head{
-  background-color: #333;
-  padding: 0px;
+
+.heading{
+  
+  background-image: url('./img/Daily\ View\ 1.png');
+  height: 5vh;
 }
 .nav{
   background-color: #222;
@@ -71,9 +73,35 @@
   flex: 1;
 }
 
-.footer {
+/* .footer {
   padding: 20px;
   background-color: #222;
   color: #ccc;
   text-align: center;
+} */
+ /* SlidingLine.css */
+
+/* SlidingText.css */
+
+.text-container {
+  position: relative;
+  width: 100%; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.sliding-text {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 24px; /* Adjust as needed */
+  animation: slide 5s linear infinite; /* Adjust the duration and iteration as needed */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

@@ -37,9 +37,10 @@ const Leaderboard: React.FC = () => {
     
     <div className="leaderboard">
       <div className="nav">
-
+        <img src="./img/Daily View.png" alt="" />
       </div>
-      <h4 className='head'>Fastest of Today</h4>
+      <div className='heading'><img src="leaderboard\src\img\Daily View.png" alt="" /></div>
+      
       <div className="player-container">
       <div className="player header">
           <span className="position">S.no</span>
@@ -59,7 +60,10 @@ const Leaderboard: React.FC = () => {
         <Carousel/>
       </div>
       <footer className="footer">
-        Footer content goes here.
+      <div className="text-container">
+      <div className="sliding-text">Get your name on leaderboard win exciting prizes!</div>
+    </div>
+    
       </footer>
     </div>
   );
