@@ -15,11 +15,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 50vh; /* Ensure it takes full viewport height */
+  height: 100vh; /* Ensure it takes full viewport height */
 }
 .nav{
   background-color: #222;
   height: 5vh;
+}
+.pop{
+  height: 30vh;
+  /* background-color: #bf2222; */
 }
 
 .player-container {

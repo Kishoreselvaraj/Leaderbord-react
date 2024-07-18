@@ -1,7 +1,7 @@
 // src/components/Leaderboard.tsx
 import React, { useEffect, useState } from 'react';
 import './Leaderbord.css';
-// import Carousel from './Carousel';
+import Carousel from './Carousel';
 
 interface Player {
   name: string;
@@ -51,7 +51,7 @@ const Leaderboard: React.FC = () => {
         ))}
       </div>
       <div className="pop">
-        {/* <Carousel/> */}
+        <Carousel/>
       </div>
       <footer className="footer">
         Footer content goes here.
