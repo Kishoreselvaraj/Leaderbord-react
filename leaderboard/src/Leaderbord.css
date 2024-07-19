@@ -20,16 +20,28 @@
 
 .heading{
   
-  background-image: url('./img/Daily\ View\ 1.png');
-  height: 5vh;
+  background-image: url('../public/img/Daily\ View\ 1.png');
+  position: relative;
+  height: 10vh;
+  background-color: #181818;
 }
+
 .nav{
-  background-color: #222;
-  height: 5vh;
+  
+  height: 8vh;
+  background-color: #181818;
+}
+.imghead .imghead1{
+  display: flex;
+  
+
+}
+.imghead1{
+  padding-left: 300px;
 }
 .pop{
   height: 30vh;
-  background-image: url('./img/imgfooter.png');
+  background-image: url('../public/img/imgfooter.png');
   /* background-color: #bf2222; */
 }
 
@@ -37,7 +49,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  background-image: url('img/imgmain.png');
+  background-image: url('../public/img/imgmain.png');
   gap: 20px; /* Space between each player element */
   flex: 1; /* Take available space */
   overflow-y: auto; /* Scroll if content exceeds */

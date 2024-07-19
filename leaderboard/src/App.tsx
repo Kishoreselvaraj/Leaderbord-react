@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import './Leaderbord.css';
 import Carousel from './Carousel';
 
+
 interface Player {
   name: string;
   prize: string;
@@ -37,9 +38,12 @@ const Leaderboard: React.FC = () => {
     
     <div className="leaderboard">
       <div className="nav">
-        <img src="./img/Daily View.png" alt="" />
+        <img className='imghead' src="./img/Daily View2.png" alt="" />
+        <img className='imghead1' src="./img/Daily view.png" alt="" />
       </div>
-      <div className='heading'><img src="leaderboard\src\img\Daily View.png" alt="" /></div>
+      <div className='heading'>
+        {/* <img className='imghead' src="./img/Daily View 1.png"alt=""/> */}
+      </div>
       
       <div className="player-container">
       <div className="player header">
